@@ -139,10 +139,82 @@
       position: absolute;
     }
 
-    .desc-tbl            { border-collapse: collapse; width: 90%; margin: 0 auto; font-size: 13px; }
-    .desc-tbl th         { border-bottom: 2px solid #333; padding: 3px 8px; text-align: right; }
+    /* Evidence-to-Policy flow diagram */
+    .e2p-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+    .e2p-arrow { font-size: 20px; color: #888; }
+    .e2p-tri {
+      width: 70px; height: 70px;
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 60px solid #ddd;
+      text-align: center;
+      position: relative;
+    }
+    .e2p-tri span {
+      position: absolute;
+      top: 25px;
+      left: -20px;
+      width: 40px;
+      font-size: 11px;
+      text-align: center;
+    }
+    .e2p-circ {
+      width: 80px; height: 80px;
+      border-radius: 50%;
+      border: 1.5px solid #888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 12px;
+      position: relative;
+      background: #fff;
+    }
+    .e2p-circ-sm {
+      width: 65px; height: 65px;
+      font-size: 11px;
+    }
+    .e2p-rect {
+      border: 1.5px solid #888;
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-size: 12px;
+      text-align: center;
+    }
+    .e2p-block {
+      position: absolute;
+      width: 35px; height: 55px;
+      background: #000;
+      transform: rotate(25deg);
+      top: -10px; left: 20px;
+      z-index: 2;
+    }
+    .e2p-branch {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-left: 5px;
+    }
+    .e2p-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .desc-tbl            { border-collapse: collapse; width: 95%; margin: 0 auto; font-size: 18px; }
+    .desc-tbl td:first-child { white-space: nowrap; }
+    .full-tbl-slide { padding: 0.5em 1em !important; }
+    .full-tbl-slide h2 { font-size: 22px; margin-bottom: 0.2em; }
+    .desc-tbl th         { border-bottom: 2px solid #333; padding: 3px 10px; text-align: right; }
     .desc-tbl th:first-child { text-align: left; }
-    .desc-tbl td         { padding: 2px 8px; text-align: right; border: none; }
+    .desc-tbl td         { padding: 2px 10px; text-align: right; border: none; }
     .desc-tbl td:first-child { text-align: left; }
     .desc-tbl .panel-hdr td {
       font-weight: bold;
@@ -318,6 +390,13 @@ Viviane H. Silva da Rocha, Gufran Pathan, Erik Ø. Sørensen, Bertil Tungodden]
 
 ## Think of Your Own Field in Economics
 
+&amp;nbsp;
+
+---
+count: false
+
+## Think of Your Own Field in Economics
+
 .focus-lit[Focus only on **causal** questions answered in the literature.]
 
 &lt;div class="tyof-bar"&gt;
@@ -421,7 +500,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-&lt;div style="margin-top: -15px; visibility: hidden;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; visibility: hidden; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 
@@ -450,6 +529,19 @@ background-image: url("figs/consort_all.png")
 background-size: contain
 background-position: center
 background-repeat: no-repeat
+
+---
+count: false
+class: center, middle, samp-slide
+background-image: url("figs/consort_all.png")
+background-size: contain
+background-position: center
+background-repeat: no-repeat
+
+&lt;div style="position: absolute; bottom: 60px; right: 40px; text-align: right; font-size: 29px; color: #c0392b; font-weight: bold;"&gt;
+Stage 1: Humans only (intentionally no LLM)&lt;br/&gt;
+Stage 2: Explore use of LLM (ongoing, not in this paper)
+&lt;/div&gt;
 
 ---
 
@@ -515,7 +607,7 @@ name: outcomes
 ]
 
 &lt;a href="#reg-descriptives" class="badge-link"&gt;Registration descriptives&lt;/a&gt;
-&lt;a href="#reg-descriptives-encoders" class="badge-link" style="bottom: 30px;"&gt;Registration Descriptives Across Encoders&lt;/a&gt;
+&lt;a href="#reg-descriptives-encoders" class="badge-link" style="bottom: 100px;"&gt;Registration Descriptives Across Encoders&lt;/a&gt;
 
 ---
 class: center, middle
@@ -632,7 +724,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-&lt;div style="margin-top: -15px; visibility: hidden;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; visibility: hidden; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 count: false
@@ -650,7 +742,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-&lt;div style="margin-top: -15px; visibility: hidden;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; visibility: hidden; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 count: false
@@ -668,7 +760,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-&lt;div style="margin-top: -15px; visibility: hidden;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; visibility: hidden; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 count: false
@@ -861,7 +953,7 @@ class: contrib
 
 - Awareness has no effect on Available or Null, but a 4pp effect on Explained (SE = 0.021).
 
-- Across three outcomes we cannot reject the hypothesis of no incremental effect of Resources → specification that pools Engagement and Resources is preferred.
+- Across all three outcomes, we cannot reject the hypothesis of no incremental effect of Resources → the specification that pools Engagement and Resources is preferred.
 
 - Effect of Pooled (Eng. or Res.):
   - **Available:** 0.062 (SE = 0.015)
@@ -910,7 +1002,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 ---
 count: false
@@ -919,7 +1011,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 ---
 count: false
@@ -928,7 +1020,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
@@ -941,7 +1033,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
@@ -954,13 +1046,13 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
 - *Engagement* makes 6pp of results available, reducing the FD by 10.5% (6pp/57pp)
-- It also uncovers explanations for 9pp, explaining an additional 16.5% (9pp/57pp)
-- Taken together, this explains between a quarter to a third of the FD before the intervention (28% = 16pp/57pp)
+- It also uncovers explanations for 9pp — an additional 16.5% of the FD (9pp/57pp)
+- Taken together, this explains between a quarter and a third of the FD before the intervention (28% = 16pp/57pp)
 ]
 
 ---
@@ -979,7 +1071,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-&lt;div style="margin-top: -15px; visibility: hidden;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; visibility: hidden; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 count: false
@@ -997,11 +1089,17 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*? .hi-num[Yes]
   - Lack of *resources*? .hi-num[No additional effect]
 
-&lt;div style="margin-top: -15px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]&lt;/div&gt;
+&lt;div style="margin-top: -15px; font-size: 24px;"&gt;.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]&lt;/div&gt;
 
 ---
 count: false
 class: center, middle, inverse
+
+&lt;div style="position: absolute; top: 15px; left: 0; right: 0; display: flex; justify-content: center; gap: 40px; align-items: center;"&gt;
+&lt;img src="figs/logos/logo1.png" style="height: 60px; object-fit: contain;"/&gt;
+&lt;img src="figs/logos/logo2.png" style="height: 60px; object-fit: contain;"/&gt;
+&lt;img src="figs/logos/logo3.png" style="height: 60px; object-fit: contain;"/&gt;
+&lt;/div&gt;
 
 # Thank You
 
@@ -1016,10 +1114,11 @@ class: center, middle, inverse
 &lt;img src="figs/team/JoWeech_Headshot_rsz-335x335.webp" style="top: 15%; left: 44%;"/&gt;
 &lt;/div&gt;
 
-&lt;div style="position: absolute; bottom: 20px; left: 30px; text-align: center;"&gt;
-&lt;span style="font-size: 13px; color: #ccc;"&gt;tinyurl.com/22njy3t6&lt;/span&gt;&lt;br/&gt;
-&lt;img src="figs/qr_slides.png" style="width: 180px; border: none; background: white; padding: 5px;"/&gt;&lt;br/&gt;
-&lt;span style="font-size: 14px; color: #ccc;"&gt;fhoces@berkeley.edu&lt;/span&gt;
+&lt;div style="position: absolute; bottom: 15px; left: 20px; text-align: center;"&gt;
+&lt;span style="font-size: 16px; color: #fff;"&gt;Slides here:&lt;/span&gt;&lt;br/&gt;
+&lt;a href="https://fhoces.github.io/BITSS-AM-2026-slides/" style="font-size: 16px; color: #fff;"&gt;tinyurl.com/2al6e5vs&lt;/a&gt;&lt;br/&gt;
+&lt;img src="figs/qr_slides.png" style="width: 140px; border: none; background: white; padding: 4px;"/&gt;&lt;br/&gt;
+&lt;span style="font-size: 16px; color: #fff;"&gt;fhoces@berkeley.edu&lt;/span&gt;
 &lt;/div&gt;
 
 ---
@@ -1027,6 +1126,15 @@ count: false
 class: center, middle, inverse
 
 # Backup slides
+
+---
+count: false
+
+class: center, middle
+background-image: url("figs/e2p_slide.png")
+background-size: contain
+background-position: center
+background-repeat: no-repeat
 
 ---
 count: false
@@ -1069,6 +1177,7 @@ name: rr-notfound
 
 ## Backup: RR When Result Not Found
 
+&lt;div style="margin-top: -50px;"&gt;
 .pull-left[
 &lt;img src="figs/rr_notfound.png" style="width: 100%; border: 1px solid #ccc;" /&gt;
 .small[*Sent to authors:* blank result + menu of reasons (didn't collect, not included in write-up, null, unfinished paper, missed by our team).]
@@ -1078,6 +1187,7 @@ name: rr-notfound
 &lt;img src="figs/rr_notfound_filled.png" style="width: 100%; border: 1px solid #ccc;" /&gt;
 .small[*Authors' reply:* fills in β, SE, p-value, and writes a short explanation — or flags that a result exists but wasn't included in the paper.]
 ]
+&lt;/div&gt;
 
 &lt;a href="#rr-found-main" class="badge-link" style="right: auto; left: 20px;"&gt;Back to Results Found&lt;/a&gt;
 
@@ -1088,10 +1198,9 @@ name: avail-null-chars
 
 ## Availability and Null Across Characteristics
 
-&lt;table class="desc-tbl"&gt;
+&lt;table class="desc-tbl" style="position: relative; top: -40px;"&gt;
 &lt;thead&gt;&lt;tr&gt;&lt;th style="text-align:left"&gt;Categories&lt;/th&gt;&lt;th&gt;Available (%)&lt;/th&gt;&lt;th&gt;Null | Available (%)&lt;/th&gt;&lt;th&gt;N&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
-&lt;tr class="panel-hdr"&gt;&lt;td colspan="4"&gt;A:&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;All&lt;/td&gt;&lt;td&gt;42.2&lt;/td&gt;&lt;td&gt;64.5&lt;/td&gt;&lt;td&gt;317&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Pre-registrations with paper&lt;/td&gt;&lt;td&gt;52.2&lt;/td&gt;&lt;td&gt;64.5&lt;/td&gt;&lt;td&gt;256&lt;/td&gt;&lt;/tr&gt;
 &lt;tr class="panel-hdr"&gt;&lt;td colspan="4"&gt;B: Type of publication&lt;/td&gt;&lt;/tr&gt;
@@ -1121,10 +1230,13 @@ name: avail-null-chars
 count: false
 
 name: reg-descriptives-encoders
+class: full-tbl-slide
 
-## Registration Descriptives Across Encoders
-
-&lt;table class="desc-tbl"&gt;
+&lt;div style="display: flex; align-items: flex-start; gap: 0px; margin-top: 20px;"&gt;
+&lt;div style="min-width: 250px; margin-top: 40px;"&gt;
+&lt;h2 style="line-height: 1.3; font-size: 36px;"&gt;Registration Descriptives&lt;br/&gt;Across Encoders&lt;/h2&gt;
+&lt;/div&gt;
+&lt;table class="desc-tbl" style="width: auto;"&gt;
 &lt;thead&gt;&lt;tr&gt;&lt;th style="text-align:left"&gt;Dimension&lt;/th&gt;&lt;th&gt;Mean&lt;/th&gt;&lt;th&gt;e1&lt;/th&gt;&lt;th&gt;e2&lt;/th&gt;&lt;th&gt;e3&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Registration&lt;/td&gt;&lt;/tr&gt;
@@ -1142,13 +1254,52 @@ name: reg-descriptives-encoders
 &lt;tr&gt;&lt;td&gt;Hypotheses / study&lt;/td&gt;&lt;td&gt;15.92&lt;/td&gt;&lt;td&gt;16.25&lt;/td&gt;&lt;td&gt;15.91&lt;/td&gt;&lt;td&gt;9.29&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Main hypotheses&lt;/td&gt;&lt;td&gt;11.77&lt;/td&gt;&lt;td&gt;11.54&lt;/td&gt;&lt;td&gt;11.82&lt;/td&gt;&lt;td&gt;9.29&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Primary het. hypotheses&lt;/td&gt;&lt;td&gt;4.15&lt;/td&gt;&lt;td&gt;4.71&lt;/td&gt;&lt;td&gt;4.09&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
-&lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Fraction of hypotheses per registration&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Frac. of hyp. per registration&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Detailed (overall)&lt;/td&gt;&lt;td&gt;0.31&lt;/td&gt;&lt;td&gt;0.34&lt;/td&gt;&lt;td&gt;0.27&lt;/td&gt;&lt;td&gt;0.35&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Type: simple difference&lt;/td&gt;&lt;td&gt;0.91&lt;/td&gt;&lt;td&gt;0.89&lt;/td&gt;&lt;td&gt;0.92&lt;/td&gt;&lt;td&gt;1.00&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Type: double difference&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.02&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Type: 'other'&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0.07&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;a href="#outcomes" class="badge-link" style="right: auto; left: 20px;"&gt;Back to outcomes&lt;/a&gt;
+
+---
+count: false
+class: full-tbl-slide
+
+&lt;div style="display: flex; align-items: flex-start; gap: 0px; margin-top: 20px;"&gt;
+&lt;div style="min-width: 250px; margin-top: 40px;"&gt;
+&lt;h2 style="line-height: 1.3; font-size: 36px;"&gt;Registration Descriptives&lt;br/&gt;Across Encoders&lt;/h2&gt;
+&lt;ul style="font-size: 20px; margin-top: 20px; line-height: 1.5; max-width: 220px; padding-left: 20px;"&gt;&lt;li&gt;Among the 620 hypotheses where authors clicked agree/disagree with the statement, &lt;b&gt;82% agreed&lt;/b&gt; with our encoding.&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;table class="desc-tbl" style="width: auto;"&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th style="text-align:left"&gt;Dimension&lt;/th&gt;&lt;th&gt;Mean&lt;/th&gt;&lt;th&gt;e1&lt;/th&gt;&lt;th&gt;e2&lt;/th&gt;&lt;th&gt;e3&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Registration&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Number of studies&lt;/td&gt;&lt;td&gt;317&lt;/td&gt;&lt;td&gt;139&lt;/td&gt;&lt;td&gt;136&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Number of hypotheses&lt;/td&gt;&lt;td&gt;5,048&lt;/td&gt;&lt;td&gt;2,259&lt;/td&gt;&lt;td&gt;2,164&lt;/td&gt;&lt;td&gt;288&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Registered with PAP&lt;/td&gt;&lt;td&gt;0.40&lt;/td&gt;&lt;td&gt;0.38&lt;/td&gt;&lt;td&gt;0.41&lt;/td&gt;&lt;td&gt;0.42&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Has published paper&lt;/td&gt;&lt;td&gt;0.49&lt;/td&gt;&lt;td&gt;0.54&lt;/td&gt;&lt;td&gt;0.48&lt;/td&gt;&lt;td&gt;0.35&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Published in top 5&lt;/td&gt;&lt;td&gt;0.10&lt;/td&gt;&lt;td&gt;0.07&lt;/td&gt;&lt;td&gt;0.12&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;LMIC population&lt;/td&gt;&lt;td&gt;0.65&lt;/td&gt;&lt;td&gt;0.65&lt;/td&gt;&lt;td&gt;0.65&lt;/td&gt;&lt;td&gt;0.61&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Specifies heterogeneity&lt;/td&gt;&lt;td&gt;0.12&lt;/td&gt;&lt;td&gt;0.15&lt;/td&gt;&lt;td&gt;0.12&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Elements per registration&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Interventions&lt;/td&gt;&lt;td&gt;3.13&lt;/td&gt;&lt;td&gt;3.17&lt;/td&gt;&lt;td&gt;3.12&lt;/td&gt;&lt;td&gt;2.61&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Arms&lt;/td&gt;&lt;td&gt;4.79&lt;/td&gt;&lt;td&gt;4.70&lt;/td&gt;&lt;td&gt;4.85&lt;/td&gt;&lt;td&gt;3.61&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Main outcomes&lt;/td&gt;&lt;td&gt;5.36&lt;/td&gt;&lt;td&gt;5.06&lt;/td&gt;&lt;td&gt;5.43&lt;/td&gt;&lt;td&gt;4.81&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Hypotheses / study&lt;/td&gt;&lt;td&gt;15.92&lt;/td&gt;&lt;td&gt;16.25&lt;/td&gt;&lt;td&gt;15.91&lt;/td&gt;&lt;td&gt;9.29&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Main hypotheses&lt;/td&gt;&lt;td&gt;11.77&lt;/td&gt;&lt;td&gt;11.54&lt;/td&gt;&lt;td&gt;11.82&lt;/td&gt;&lt;td&gt;9.29&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Primary het. hypotheses&lt;/td&gt;&lt;td&gt;4.15&lt;/td&gt;&lt;td&gt;4.71&lt;/td&gt;&lt;td&gt;4.09&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class="panel-hdr"&gt;&lt;td colspan="5"&gt;Frac. of hyp. per registration&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Detailed (overall)&lt;/td&gt;&lt;td&gt;0.31&lt;/td&gt;&lt;td&gt;0.34&lt;/td&gt;&lt;td&gt;0.27&lt;/td&gt;&lt;td&gt;0.35&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Type: simple difference&lt;/td&gt;&lt;td&gt;0.91&lt;/td&gt;&lt;td&gt;0.89&lt;/td&gt;&lt;td&gt;0.92&lt;/td&gt;&lt;td&gt;1.00&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Type: double difference&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0.02&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Type: 'other'&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0.07&lt;/td&gt;&lt;td&gt;0.06&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
 
 &lt;a href="#outcomes" class="badge-link" style="right: auto; left: 20px;"&gt;Back to outcomes&lt;/a&gt;
 
@@ -1159,7 +1310,7 @@ name: reg-descriptives
 
 ## Registration Descriptives
 
-&lt;table class="desc-tbl"&gt;
+&lt;table class="desc-tbl" style="font-size: 15px;"&gt;
 &lt;thead&gt;&lt;tr&gt;&lt;th style="text-align:left"&gt;Dimension&lt;/th&gt;&lt;th&gt;Mean&lt;/th&gt;&lt;th&gt;p10&lt;/th&gt;&lt;th&gt;p25&lt;/th&gt;&lt;th&gt;p50&lt;/th&gt;&lt;th&gt;p75&lt;/th&gt;&lt;th&gt;p90&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class="panel-hdr"&gt;&lt;td colspan="7"&gt;A: Registrations&lt;/td&gt;&lt;/tr&gt;
@@ -1176,7 +1327,7 @@ name: reg-descriptives
 &lt;tr&gt;&lt;td&gt;Main hypotheses&lt;/td&gt;&lt;td&gt;11.77&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;25.4&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Primary heterogeneity hypotheses&lt;/td&gt;&lt;td&gt;4.15&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Has more than 10 hypotheses&lt;/td&gt;&lt;td&gt;0.43&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
-&lt;tr class="panel-hdr"&gt;&lt;td colspan="7"&gt;C: Fraction of hypotheses per registration that are&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class="panel-hdr"&gt;&lt;td colspan="7"&gt;C: Frac. of hyp. per registration&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Detailed (overall)&lt;/td&gt;&lt;td&gt;0.31&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Type: simple difference&lt;/td&gt;&lt;td&gt;0.91&lt;/td&gt;&lt;td&gt;0.67&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;Type: double difference&lt;/td&gt;&lt;td&gt;0.03&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
@@ -1252,7 +1403,7 @@ name: reg-table-backup
 
 ## Main Treatment Effects — Full Table
 
-&lt;table class="reg-tbl"&gt;
+&lt;table class="reg-tbl" style="font-size: 15px; top: -40px;"&gt;
 &lt;thead&gt;
 &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th colspan="2" style="border-bottom: 1px solid #333;"&gt;Available&lt;/th&gt;&lt;th colspan="2" style="border-bottom: 1px solid #333;"&gt;Null&lt;/th&gt;&lt;th colspan="2" style="border-bottom: 1px solid #333;"&gt;Explained&lt;/th&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th&gt;&lt;/th&gt;&lt;th&gt;(1)&lt;/th&gt;&lt;th&gt;(2)&lt;/th&gt;&lt;th&gt;(3)&lt;/th&gt;&lt;th&gt;(4)&lt;/th&gt;&lt;th&gt;(5)&lt;/th&gt;&lt;th&gt;(6)&lt;/th&gt;&lt;/tr&gt;

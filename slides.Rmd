@@ -56,6 +56,8 @@ class: center, middle
 .small[Fernando Hoces de la Guardia, Edward Miguel, Akash Shaji,<br/>
 Viviane H. Silva da Rocha, Gufran Pathan, Erik Ø. Sørensen, Bertil Tungodden]
 
+<br/>
+
 .small[BITSS Annual Meeting — 2026]
 
 ---
@@ -621,7 +623,7 @@ knitr::include_graphics(png_path("y1_study_tretment_effect_dd.pdf"))
 
 .small[Awareness does not affect Availability. Engagement and Resources increase Availability by ~6–7pp. Additional resources on top of Engagement have no effect → pooling Engagement and Resources arms.]
 
-<a href="#estimation" class="badge-link">Estimation &<br/>Hypotheses</a>
+<a href="#estimation" class="badge-link" style="bottom: auto; top: 15px; right: 20px;">Estimation &<br/>Hypotheses</a>
 
 ---
 name: te-summary
