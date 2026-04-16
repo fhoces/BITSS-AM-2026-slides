@@ -165,7 +165,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 
@@ -380,7 +380,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -398,7 +398,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -416,7 +416,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -729,7 +729,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -747,7 +747,30 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*? .hi-num[Yes]
   - Lack of *resources*? .hi-num[No additional effect]
 
-.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]
+<div style="margin-top: -15px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+
+---
+count: false
+class: center, middle, inverse
+
+# Thank You
+
+<div class="team-collage">
+<img src="figs/team/fernando-scaled-1-335x335.webp" style="top: 22%; left: 58%;"/>
+<img src="figs/team/s1579.jpg" style="top: 42%; left: 64%;"/>
+<img src="figs/team/Image_20231207_104934_948-scaled-1-335x335.webp" style="top: 62%; left: 58%;"/>
+<img src="figs/team/Copy-of-DSC05682-scaled-1-335x335.webp" style="top: 70%; left: 44%;"/>
+<img src="figs/team/IMG_2681-scaled-e1737074000170-335x335.webp" style="top: 62%; left: 30%;"/>
+<img src="figs/team/s1411.jpg" style="top: 42%; left: 24%;"/>
+<img src="figs/team/Copy-of-DSC05529-Edit-scaled-1-335x335.webp" style="top: 22%; left: 30%;"/>
+<img src="figs/team/JoWeech_Headshot_rsz-335x335.webp" style="top: 15%; left: 44%;"/>
+</div>
+
+<div style="position: absolute; bottom: 20px; left: 30px; text-align: center;">
+<span style="font-size: 13px; color: #ccc;">tinyurl.com/22njy3t6</span><br/>
+<img src="figs/qr_slides.png" style="width: 180px; border: none; background: white; padding: 5px;"/><br/>
+<span style="font-size: 14px; color: #ccc;">fhoces@berkeley.edu</span>
+</div>
 
 ---
 count: false
