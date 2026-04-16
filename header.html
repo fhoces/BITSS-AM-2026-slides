@@ -37,6 +37,7 @@
   margin-top: 2px;
 }
 .phantom   { visibility: hidden; }
+.phantom li { list-style: none; }
 
 /* Small badge link (bottom-right, above page number) */
 .badge-link {
@@ -105,6 +106,18 @@
 .eng-tbl td          { padding: 14px 16px; text-align: center; border: none; }
 .eng-tbl td:first-child { text-align: left; font-style: italic; }
 .eng-tbl tbody tr:last-child td { font-weight: bold; font-style: normal; }
+
+/* File drawer bullets pinned from top so first bullet stays in place */
+.fd-bullets {
+  position: absolute;
+  top: 66%;
+  left: 40px;
+  right: 40px;
+  font-size: 22px;
+}
+.fd-bullets li {
+  margin-bottom: 8px;
+}
 
 .desc-tbl            { border-collapse: collapse; width: 90%; margin: 0 auto; font-size: 13px; }
 .desc-tbl th         { border-bottom: 2px solid #333; padding: 3px 8px; text-align: right; }

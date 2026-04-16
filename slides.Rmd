@@ -165,6 +165,8 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
+.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+
 ---
 
 class: center, middle, samp-slide
@@ -263,7 +265,7 @@ name: outcomes
 class: center, middle
 count: false
 
-# Main Finding #1: <br/> Measuring the Size of The File Drawer <br/> for RCTs in Economics
+# Main Finding #1: <br/> Characterizing The File Drawer <br/> for RCTs in Economics
 
 ---
 name: main-waterfall
@@ -378,6 +380,8 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
+.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+
 ---
 count: false
 class: contrib
@@ -394,6 +398,8 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
+.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+
 ---
 count: false
 class: contrib
@@ -409,6 +415,8 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *awareness*?
   - Lack of *engagement*?
   - Lack of *resources*?
+
+.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
 
 ---
 count: false
@@ -640,14 +648,70 @@ name: types-explained
 <a href="#newly-available" class="badge-link" style="right: auto; left: 20px; bottom: 15px;">Newly Available</a>
 
 ---
+class: center, middle
+count: false
 
-## File Drawer, Pre vs. Post Intervention
+# Main Finding #2: <br/> Understanding What is Behind <br/> Missing Results in Pre-Registered RCTs in Economics
 
-```{r}
-knitr::include_graphics(png_path("filedrawer_post_base.pdf"))
-```
+---
 
-.small[Same geometry as the main waterfall, but adding post-intervention recoveries.]
+background-image: url("figs/filedrawer_pre_all.png")
+background-size: 75%
+background-position: center 45%
+background-repeat: no-repeat
+
+## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+
+---
+count: false
+background-image: url("figs/filedrawer_pre_t1.png")
+background-size: 75%
+background-position: center 45%
+background-repeat: no-repeat
+
+## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+
+---
+count: false
+background-image: url("figs/filedrawer_post_t1.png")
+background-size: 75%
+background-position: center 45%
+background-repeat: no-repeat
+
+## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+
+.fd-bullets[
+- *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
+]
+
+---
+count: false
+background-image: url("figs/filedrawer_pre_t2t3.png")
+background-size: 75%
+background-position: center 45%
+background-repeat: no-repeat
+
+## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+
+.fd-bullets[
+- *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
+]
+
+---
+count: false
+background-image: url("figs/filedrawer_post_base.png")
+background-size: 75%
+background-position: center 45%
+background-repeat: no-repeat
+
+## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+
+.fd-bullets[
+- *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
+- *Engagement* makes 6pp of results available, reducing the FD by 10.5% (6pp/57pp)
+- It also uncovers explanations for 9pp, explaining an additional 16.5% (9pp/57pp)
+- Taken together, this explains between a quarter to a third of the FD before the intervention (28% = 16pp/57pp)
+]
 
 ---
 
@@ -660,12 +724,30 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
 **Q1. What fraction of pre-registered hypotheses have available results after 8–9 years per study?** .hi-num[42% → File Drawer of 58%]
   - Conditional on available, what fraction are null? .hi-num[64%]
 
-**Q2. What prevents researchers from reporting missing pre-registered results?** .hi-num[Engagement is the binding constraint (~6pp)]
+**Q2. What prevents researchers from reporting missing pre-registered results?**
+  - Lack of *awareness*?
+  - Lack of *engagement*?
+  - Lack of *resources*?
+
+.phantom[.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]]
+
+---
+count: false
+class: contrib
+
+## Contributions
+
+We develop an approach to **standardize and record hypotheses** from the AEA Registry, and run an RCT on study authors to answer:
+
+**Q1. What fraction of pre-registered hypotheses have available results after 8–9 years per study?** .hi-num[42% → File Drawer of 58%]
+  - Conditional on available, what fraction are null? .hi-num[64%]
+
+**Q2. What prevents researchers from reporting missing pre-registered results?**
   - Lack of *awareness*? .hi-num[No effect on Available]
   - Lack of *engagement*? .hi-num[Yes]
   - Lack of *resources*? .hi-num[No additional effect]
 
-.footnote[Thanks — `fhoces@berkeley.edu`]
+.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]
 
 ---
 count: false
