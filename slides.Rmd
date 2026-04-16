@@ -165,7 +165,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 
@@ -194,6 +194,19 @@ background-image: url("figs/consort_all.png")
 background-size: contain
 background-position: center
 background-repeat: no-repeat
+
+---
+count: false
+class: center, middle, samp-slide
+background-image: url("figs/consort_all.png")
+background-size: contain
+background-position: center
+background-repeat: no-repeat
+
+<div style="position: absolute; bottom: 60px; right: 40px; text-align: right; font-size: 29px; color: #c0392b; font-weight: bold;">
+Stage 1: Humans only (intentionally no LLM)<br/>
+Stage 2: Explore use of LLM (ongoing, not in this paper)
+</div>
 
 ---
 
@@ -380,7 +393,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -398,7 +411,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -416,7 +429,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -729,7 +742,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -747,11 +760,17 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*? .hi-num[Yes]
   - Lack of *resources*? .hi-num[No additional effect]
 
-<div style="margin-top: -15px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
 
 ---
 count: false
 class: center, middle, inverse
+
+<div style="position: absolute; top: 15px; left: 0; right: 0; display: flex; justify-content: center; gap: 40px; align-items: center;">
+<img src="figs/logos/logo1.png" style="height: 60px; object-fit: contain;"/>
+<img src="figs/logos/logo2.png" style="height: 60px; object-fit: contain;"/>
+<img src="figs/logos/logo3.png" style="height: 60px; object-fit: contain;"/>
+</div>
 
 # Thank You
 
@@ -766,10 +785,11 @@ class: center, middle, inverse
 <img src="figs/team/JoWeech_Headshot_rsz-335x335.webp" style="top: 15%; left: 44%;"/>
 </div>
 
-<div style="position: absolute; bottom: 20px; left: 30px; text-align: center;">
-<span style="font-size: 13px; color: #ccc;">tinyurl.com/22njy3t6</span><br/>
-<img src="figs/qr_slides.png" style="width: 180px; border: none; background: white; padding: 5px;"/><br/>
-<span style="font-size: 14px; color: #ccc;">fhoces@berkeley.edu</span>
+<div style="position: absolute; bottom: 15px; left: 20px; text-align: center;">
+<span style="font-size: 16px; color: #fff;">Slides here:</span><br/>
+<a href="https://fhoces.github.io/BITSS-AM-2026-slides/" style="font-size: 16px; color: #fff;">tinyurl.com/2al6e5vs</a><br/>
+<img src="figs/qr_slides.png" style="width: 140px; border: none; background: white; padding: 4px;"/><br/>
+<span style="font-size: 16px; color: #fff;">fhoces@berkeley.edu</span>
 </div>
 
 ---
@@ -838,10 +858,9 @@ name: avail-null-chars
 
 ## Availability and Null Across Characteristics
 
-<table class="desc-tbl">
+<table class="desc-tbl" style="position: relative; top: -40px;">
 <thead><tr><th style="text-align:left">Categories</th><th>Available (%)</th><th>Null | Available (%)</th><th>N</th></tr></thead>
 <tbody>
-<tr class="panel-hdr"><td colspan="4">A:</td></tr>
 <tr><td>All</td><td>42.2</td><td>64.5</td><td>317</td></tr>
 <tr><td>Pre-registrations with paper</td><td>52.2</td><td>64.5</td><td>256</td></tr>
 <tr class="panel-hdr"><td colspan="4">B: Type of publication</td></tr>
@@ -871,10 +890,13 @@ name: avail-null-chars
 count: false
 
 name: reg-descriptives-encoders
+class: full-tbl-slide
 
-## Registration Descriptives Across Encoders
-
-<table class="desc-tbl">
+<div style="display: flex; align-items: flex-start; gap: 0px; margin-top: 20px;">
+<div style="min-width: 250px; margin-top: 40px;">
+<h2 style="line-height: 1.3; font-size: 36px;">Registration Descriptives<br/>Across Encoders</h2>
+</div>
+<table class="desc-tbl" style="width: auto;">
 <thead><tr><th style="text-align:left">Dimension</th><th>Mean</th><th>e1</th><th>e2</th><th>e3</th></tr></thead>
 <tbody>
 <tr class="panel-hdr"><td colspan="5">Registration</td></tr>
@@ -892,13 +914,52 @@ name: reg-descriptives-encoders
 <tr><td>Hypotheses / study</td><td>15.92</td><td>16.25</td><td>15.91</td><td>9.29</td></tr>
 <tr><td>Main hypotheses</td><td>11.77</td><td>11.54</td><td>11.82</td><td>9.29</td></tr>
 <tr><td>Primary het. hypotheses</td><td>4.15</td><td>4.71</td><td>4.09</td><td>0</td></tr>
-<tr class="panel-hdr"><td colspan="5">Fraction of hypotheses per registration</td></tr>
+<tr class="panel-hdr"><td colspan="5">Frac. of hyp. per registration</td></tr>
 <tr><td>Detailed (overall)</td><td>0.31</td><td>0.34</td><td>0.27</td><td>0.35</td></tr>
 <tr><td>Type: simple difference</td><td>0.91</td><td>0.89</td><td>0.92</td><td>1.00</td></tr>
 <tr><td>Type: double difference</td><td>0.03</td><td>0.03</td><td>0.02</td><td>0</td></tr>
 <tr><td>Type: 'other'</td><td>0.06</td><td>0.07</td><td>0.06</td><td>0</td></tr>
 </tbody>
 </table>
+</div>
+
+<a href="#outcomes" class="badge-link" style="right: auto; left: 20px;">Back to outcomes</a>
+
+---
+count: false
+class: full-tbl-slide
+
+<div style="display: flex; align-items: flex-start; gap: 0px; margin-top: 20px;">
+<div style="min-width: 250px; margin-top: 40px;">
+<h2 style="line-height: 1.3; font-size: 36px;">Registration Descriptives<br/>Across Encoders</h2>
+<ul style="font-size: 20px; margin-top: 20px; line-height: 1.5; max-width: 220px; padding-left: 20px;"><li>Among the 620 hypotheses where authors clicked agree/disagree with the statement, <b>82% agreed</b> with our encoding.</li></ul>
+</div>
+<table class="desc-tbl" style="width: auto;">
+<thead><tr><th style="text-align:left">Dimension</th><th>Mean</th><th>e1</th><th>e2</th><th>e3</th></tr></thead>
+<tbody>
+<tr class="panel-hdr"><td colspan="5">Registration</td></tr>
+<tr><td>Number of studies</td><td>317</td><td>139</td><td>136</td><td>31</td></tr>
+<tr><td>Number of hypotheses</td><td>5,048</td><td>2,259</td><td>2,164</td><td>288</td></tr>
+<tr><td>Registered with PAP</td><td>0.40</td><td>0.38</td><td>0.41</td><td>0.42</td></tr>
+<tr><td>Has published paper</td><td>0.49</td><td>0.54</td><td>0.48</td><td>0.35</td></tr>
+<tr><td>Published in top 5</td><td>0.10</td><td>0.07</td><td>0.12</td><td>0.06</td></tr>
+<tr><td>LMIC population</td><td>0.65</td><td>0.65</td><td>0.65</td><td>0.61</td></tr>
+<tr><td>Specifies heterogeneity</td><td>0.12</td><td>0.15</td><td>0.12</td><td>0</td></tr>
+<tr class="panel-hdr"><td colspan="5">Elements per registration</td></tr>
+<tr><td>Interventions</td><td>3.13</td><td>3.17</td><td>3.12</td><td>2.61</td></tr>
+<tr><td>Arms</td><td>4.79</td><td>4.70</td><td>4.85</td><td>3.61</td></tr>
+<tr><td>Main outcomes</td><td>5.36</td><td>5.06</td><td>5.43</td><td>4.81</td></tr>
+<tr><td>Hypotheses / study</td><td>15.92</td><td>16.25</td><td>15.91</td><td>9.29</td></tr>
+<tr><td>Main hypotheses</td><td>11.77</td><td>11.54</td><td>11.82</td><td>9.29</td></tr>
+<tr><td>Primary het. hypotheses</td><td>4.15</td><td>4.71</td><td>4.09</td><td>0</td></tr>
+<tr class="panel-hdr"><td colspan="5">Frac. of hyp. per registration</td></tr>
+<tr><td>Detailed (overall)</td><td>0.31</td><td>0.34</td><td>0.27</td><td>0.35</td></tr>
+<tr><td>Type: simple difference</td><td>0.91</td><td>0.89</td><td>0.92</td><td>1.00</td></tr>
+<tr><td>Type: double difference</td><td>0.03</td><td>0.03</td><td>0.02</td><td>0</td></tr>
+<tr><td>Type: 'other'</td><td>0.06</td><td>0.07</td><td>0.06</td><td>0</td></tr>
+</tbody>
+</table>
+</div>
 
 <a href="#outcomes" class="badge-link" style="right: auto; left: 20px;">Back to outcomes</a>
 
@@ -909,7 +970,7 @@ name: reg-descriptives
 
 ## Registration Descriptives
 
-<table class="desc-tbl">
+<table class="desc-tbl" style="font-size: 15px;">
 <thead><tr><th style="text-align:left">Dimension</th><th>Mean</th><th>p10</th><th>p25</th><th>p50</th><th>p75</th><th>p90</th></tr></thead>
 <tbody>
 <tr class="panel-hdr"><td colspan="7">A: Registrations</td></tr>
@@ -926,7 +987,7 @@ name: reg-descriptives
 <tr><td>Main hypotheses</td><td>11.77</td><td>2</td><td>4</td><td>8</td><td>15</td><td>25.4</td></tr>
 <tr><td>Primary heterogeneity hypotheses</td><td>4.15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
 <tr><td>Has more than 10 hypotheses</td><td>0.43</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
-<tr class="panel-hdr"><td colspan="7">C: Fraction of hypotheses per registration that are</td></tr>
+<tr class="panel-hdr"><td colspan="7">C: Frac. of hyp. per registration</td></tr>
 <tr><td>Detailed (overall)</td><td>0.31</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
 <tr><td>Type: simple difference</td><td>0.91</td><td>0.67</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
 <tr><td>Type: double difference</td><td>0.03</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
