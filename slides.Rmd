@@ -53,8 +53,8 @@ class: center, middle
 # Beyond Publication Bias:
 ## Characterizing and Understanding Missing Results in Economics
 
-.small[Fernando Hoces de la Guardia, Edward Miguel, Akash Shaji,<br/>
-Viviane H. Silva da Rocha, Gufran Pathan, Erik Ø. Sørensen, Bertil Tungodden]
+<span style="font-size: 80%; text-decoration: underline;">Fernando Hoces de la Guardia</span><span style="font-size: 80%;">, Edward Miguel, Akash Shaji,<br/>
+Viviane H. Silva da Rocha, Gufran Pathan, Erik Ø. Sørensen, Bertil Tungodden</span>
 
 <br/>
 
