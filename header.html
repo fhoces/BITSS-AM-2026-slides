@@ -130,6 +130,75 @@
   position: absolute;
 }
 
+/* Evidence-to-Policy flow diagram */
+.e2p-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.e2p-arrow { font-size: 20px; color: #888; }
+.e2p-tri {
+  width: 70px; height: 70px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 60px solid #ddd;
+  text-align: center;
+  position: relative;
+}
+.e2p-tri span {
+  position: absolute;
+  top: 25px;
+  left: -20px;
+  width: 40px;
+  font-size: 11px;
+  text-align: center;
+}
+.e2p-circ {
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  border: 1.5px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  background: #fff;
+}
+.e2p-circ-sm {
+  width: 65px; height: 65px;
+  font-size: 11px;
+}
+.e2p-rect {
+  border: 1.5px solid #888;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 12px;
+  text-align: center;
+}
+.e2p-block {
+  position: absolute;
+  width: 35px; height: 55px;
+  background: #000;
+  transform: rotate(25deg);
+  top: -10px; left: 20px;
+  z-index: 2;
+}
+.e2p-branch {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 5px;
+}
+.e2p-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .desc-tbl            { border-collapse: collapse; width: 95%; margin: 0 auto; font-size: 18px; }
 .desc-tbl td:first-child { white-space: nowrap; }
 .full-tbl-slide { padding: 0.5em 1em !important; }

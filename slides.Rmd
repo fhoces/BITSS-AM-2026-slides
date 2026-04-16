@@ -62,6 +62,13 @@ Viviane H. Silva da Rocha, Gufran Pathan, Erik Ø. Sørensen, Bertil Tungodden]
 
 ## Think of Your Own Field in Economics
 
+&nbsp;
+
+---
+count: false
+
+## Think of Your Own Field in Economics
+
 .focus-lit[Focus only on **causal** questions answered in the literature.]
 
 <div class="tyof-bar">
@@ -165,7 +172,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 
@@ -272,7 +279,7 @@ name: outcomes
 ]
 
 <a href="#reg-descriptives" class="badge-link">Registration descriptives</a>
-<a href="#reg-descriptives-encoders" class="badge-link" style="bottom: 30px;">Registration Descriptives Across Encoders</a>
+<a href="#reg-descriptives-encoders" class="badge-link" style="bottom: 100px;">Registration Descriptives Across Encoders</a>
 
 ---
 class: center, middle
@@ -393,7 +400,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -411,7 +418,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -429,7 +436,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -624,7 +631,7 @@ class: contrib
 
 - Awareness has no effect on Available or Null, but a 4pp effect on Explained (SE = 0.021).
 
-- Across three outcomes we cannot reject the hypothesis of no incremental effect of Resources → specification that pools Engagement and Resources is preferred.
+- Across all three outcomes, we cannot reject the hypothesis of no incremental effect of Resources → the specification that pools Engagement and Resources is preferred.
 
 - Effect of Pooled (Eng. or Res.):
   - **Available:** 0.062 (SE = 0.015)
@@ -673,7 +680,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 ---
 count: false
@@ -682,7 +689,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 ---
 count: false
@@ -691,7 +698,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
@@ -704,7 +711,7 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
@@ -717,13 +724,13 @@ background-size: 75%
 background-position: center 45%
 background-repeat: no-repeat
 
-## How Much of the File Drawer Can We Recover 8-9 Years After by Relaxing Constraints?
+## How Much of the File Drawer Can We Recover 8–9 Years After by Relaxing Constraints?
 
 .fd-bullets[
 - *Awareness* only recovers a few explanations — 7% of the File Drawer (FD) (4pp/57pp)
 - *Engagement* makes 6pp of results available, reducing the FD by 10.5% (6pp/57pp)
-- It also uncovers explanations for 9pp, explaining an additional 16.5% (9pp/57pp)
-- Taken together, this explains between a quarter to a third of the FD before the intervention (28% = 16pp/57pp)
+- It also uncovers explanations for 9pp — an additional 16.5% of the FD (9pp/57pp)
+- Taken together, this explains between a quarter and a third of the FD before the intervention (28% = 16pp/57pp)
 ]
 
 ---
@@ -742,7 +749,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*?
   - Lack of *resources*?
 
-<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; visibility: hidden; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -760,7 +767,7 @@ We develop an approach to **standardize and record hypotheses** from the AEA Reg
   - Lack of *engagement*? .hi-num[Yes]
   - Lack of *resources*? .hi-num[No additional effect]
 
-<div style="margin-top: -15px; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter to a third of the File Drawer (28%).]</div>
+<div style="margin-top: -15px; font-size: 24px;">.hi-num[Our stronger intervention helps explain between a quarter and a third of the File Drawer (28%).]</div>
 
 ---
 count: false
@@ -797,6 +804,15 @@ count: false
 class: center, middle, inverse
 
 # Backup slides
+
+---
+count: false
+
+class: center, middle
+background-image: url("figs/e2p_slide.png")
+background-size: contain
+background-position: center
+background-repeat: no-repeat
 
 ---
 count: false
@@ -839,6 +855,7 @@ name: rr-notfound
 
 ## Backup: RR When Result Not Found
 
+<div style="margin-top: -50px;">
 .pull-left[
 <img src="figs/rr_notfound.png" style="width: 100%; border: 1px solid #ccc;" />
 .small[*Sent to authors:* blank result + menu of reasons (didn't collect, not included in write-up, null, unfinished paper, missed by our team).]
@@ -848,6 +865,7 @@ name: rr-notfound
 <img src="figs/rr_notfound_filled.png" style="width: 100%; border: 1px solid #ccc;" />
 .small[*Authors' reply:* fills in β, SE, p-value, and writes a short explanation — or flags that a result exists but wasn't included in the paper.]
 ]
+</div>
 
 <a href="#rr-found-main" class="badge-link" style="right: auto; left: 20px;">Back to Results Found</a>
 
@@ -1063,7 +1081,7 @@ name: reg-table-backup
 
 ## Main Treatment Effects — Full Table
 
-<table class="reg-tbl">
+<table class="reg-tbl" style="font-size: 15px; top: -40px;">
 <thead>
 <tr><th></th><th colspan="2" style="border-bottom: 1px solid #333;">Available</th><th colspan="2" style="border-bottom: 1px solid #333;">Null</th><th colspan="2" style="border-bottom: 1px solid #333;">Explained</th></tr>
 <tr><th></th><th>(1)</th><th>(2)</th><th>(3)</th><th>(4)</th><th>(5)</th><th>(6)</th></tr>
